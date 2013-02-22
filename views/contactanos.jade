@@ -1,0 +1,25 @@
+extends layout
+block content
+	div.jumbotron
+		table(width="100%")
+			tr
+				td
+					| Ingrese su e-mail
+				td
+					form(action="", method="post")
+						input(type="text",name="email")
+				td(rowspan="8", align="center")
+					img(src='/img/contactanos.png',alt="Mi logo", width="300px", height="300px")
+			tr
+				td
+					| Asunto:
+				td
+					textarea(name="asunto", wrap="off", cols="50", rows="3")
+				td
+			tr
+				td
+					| Enviar consulta.
+				td
+					a(class="btn btn-large btn-success", href="#") Enviar consulta.
+				td
+include footer
