@@ -26,7 +26,7 @@ header section{
 	width: 940px;
 	margin: 0 auto;
 	padding: 0px;
-	background-image:url("/img/encabezado.jpg");
+	background-image:url("/img/banner2.jpg");
 	height:150px;
 	-webkit-border-top-right-radius: 10px;
 	-webkit-border-bottom-right-radius: 10px;
@@ -42,7 +42,7 @@ header section img{
 }
 header section h1{
 	float: left;
-	color:#FFFFFF;
+	color:#000;
 	border-left: 1px solid 	#BDAD88;
 	padding-left: 20px;
 	line-height: 20px;

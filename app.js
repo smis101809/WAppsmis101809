@@ -32,24 +32,29 @@ app.get('/', function(req, res){
 		title : 'Bienvenidos'
 	});
 });
-app.get('/quienes', function(req, res){
-	res.render('quienes',{
-		title : "quienes"
+app.get('/suscribete', function(req, res){
+	res.render('suscribete',{
+		title : "Subscripcion"
 	});
 });
-app.get('/productos', function(req, res){
-	res.render('productos', {
-		title : "productos"
+app.get('/bellezas', function(req, res){
+	res.render('bellezas', {
+		title : "Nuestras Bellezas"
 	});
 });
 app.get('/contactanos', function(req, res){
 	res.render('contactanos',{
-		title : "contactanos"
+		title : "Contactanos"
+	});
+});
+app.get('/login', function(req, res){
+	res.render('login',{
+		title : "Iniciando Sesion"
 	});
 });
 app.get('/info', function(req, res){
 	res.render('info',{
-		title : "info"
+		title : "Informacion"
 	});
 });
 app.get('/system', function(req, res){

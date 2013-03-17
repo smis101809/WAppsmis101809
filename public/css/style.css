@@ -20,7 +20,7 @@ header section{
 	width: 960px;
 	margin: 0 auto;
 	padding: 0px;
-	background-image:url("/images/encabezado.jpg");
+	background-image:url("/img/banner1.jpg");
 	height:150px;
 	clear: both;
 }
@@ -174,3 +174,16 @@ text-align:center;
 .button:hover {
 	color: #00F;	
 }
+FIELDSET {
+				border: solid 2px #000;
+				-moz-border-radius: 14px;
+				-webkit-border-radius: 14px;
+				border-radius: 14px;
+				padding: 0em 1em;
+				margin: 0em 0em;
+			}
+LEGEND {
+				color:#00C;
+				font-size: 16px;
+				padding: 0em .5em;
+			}

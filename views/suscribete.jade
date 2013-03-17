@@ -1,0 +1,32 @@
+extends layout
+block content
+	div.jumbotron
+	fieldset
+		legend(align="center", style="color: #000; font-size: 12pt;") Registrate aqu&iacute!!
+			table(width="80%",border="0")
+				tr
+					td(valign="top", align="right")
+						| Ingresa tu e-mail
+					td(align="left")
+						form(action="", method="post")
+							input(type="text",name="email")
+					td(rowspan="4", align="center")
+						img(src='/img/suscribir.png',alt="Mi logo", width="150px", height="150px")
+				tr
+					td(align="right")
+						| Ingresa tu Contrase&ntilde;a:
+					td(align="left")
+						input(type="password", name="password")
+					td
+				tr
+					td(align="right")
+						| Repetir Contrase&ntilde;a:
+					td(align="left")
+						input(type="password", name="password")
+					td
+				tr		
+					td	
+					td(align="right")
+						a(class="btn btn-large btn-success", href="#") Ok.
+					td
+include footer

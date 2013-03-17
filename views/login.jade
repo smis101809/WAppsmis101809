@@ -1,0 +1,29 @@
+extends layout
+block content
+	div.jumbotron
+	fieldset
+		legend(align="center", style="color: #000; font-size: 12pt;") Inicia sesi&oacute;n aqu&iacute!!
+			table(width="90%",border="0")
+				tr
+					td(valign="top")
+						| Ingresa tu e-mail
+					td(align="left")
+						form(action="", method="post")
+							input(type="text",name="email")
+					td(rowspan="2", align="center")
+						img(src='/img/llave.jpg',alt="Mi logo", width="200px", height="200px")
+				tr
+					td(align="right")
+						| Contrase&ntilde;a:
+					td(align="left")
+						input(type="password", name="password")
+					td
+				tr		
+					td	
+					td(align="center")
+						a(class="btn btn-large btn-success", href="#") Ok.
+					td
+						|No estas Registrado??
+						br
+						a(class="btn btn-large btn-success", href="/suscribete") Suscribete Aqu&iacute!!.
+include footer
